@@ -1,0 +1,83 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: url('') no-repeat center center fixed; */
+    background-size: cover;
+    color:#000000;
+    background-color : hsl(0, 0%, 100%);
+    
+}
+.logo{
+    width: auto;
+    height:80px;
+   
+   
+
+} 
+.header {
+    background-color: #6F1A76!important;/* Lavender */
+    /* padding: 0.5rem 0; */
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+
+}
+
+.header h1 {
+    color: #10110f; 
+    background-color: #ACD793!important;/* Pistachio Green */
+}
+
+.navbar {
+    background-color: #DAEA9D!important; 
+    
+}
+
+.navbar-brand {
+    color:#696969 !important; /* grey */
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+}
+
+.navbar-nav .nav-link {
+    color: #696969 !important;
+    /* Dim Gray for contrast */
+}
+
+
+
+.carousel-item img {
+    max-height: 500px;
+   
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #6b8e23; /* Pistachio Green */
+    border-radius: 50%;
+}
+
+footer {
+    background-color:#6F1A76 !important; /* Lavender */
+}
+.mb-0{
+    background-color:#6F1A76 !important;
+    color:aliceblue
+}
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.btn-purple {
+    background-color: #6F1A76;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #6F1A76;
+    color: white;
+}
