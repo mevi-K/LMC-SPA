@@ -18,8 +18,8 @@ export default class HeaderComponent extends HTMLElement{
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
-        <img src="../images/logo-maison de chales.jpg" alt="Logo" class="logo mr-2">
+    <a class="navbar-brand" href="/">
+    <img src="./src/assets/images/logo-maison de chales.jpg" alt="Logo" class="logo mr-2">
         Rêve de Cachemire
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -29,22 +29,22 @@ export default class HeaderComponent extends HTMLElement{
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="collection.html">Collection</a>
+                <a class="nav-link" href="/collection">Collection</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="/contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
+                <a class="nav-link" href="/login">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="signup.html">Signup</a>
+                <a class="nav-link" href="/signup">Signup</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="basket.html">Basket</a>
+                <a class="nav-link" href="/basket">Basket</a>
             </li>
         </ul>
     </div>

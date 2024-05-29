@@ -36,24 +36,24 @@ export default class Router {
         if (location.pathname == "/") {
             page = new HomeScreen();
         }
-        // else if (location.pathname == "/collection") {
-        //     page = new CollectionScreen();
-        // }
-        // else if (location.pathname == "/basket") {
-        //     page = new BasketScreen();
-        // }
-        // else if (location.pathname == "/login") {
-        //     page = new LoginScreen();
-        // }
-        // else if (location.pathname == "/contact") {
-        //     page = new ContactScreen();
-        // } 
-        // else if (location.pathname == "/signup") {
-        //     page = new SignupScreen();
-        // }
-        // else {
-        //     page = new ErrorScreen();
-        // }
+        else if (location.pathname == "/collection") {
+            page = new CollectionScreen();
+        }
+        else if (location.pathname == "/basket") {
+            page = new BasketScreen();
+        }
+        else if (location.pathname == "/login") {
+            page = new LoginScreen();
+        }
+        else if (location.pathname == "/contact") {
+            page = new ContactScreen();
+        } 
+        else if (location.pathname == "/signup") {
+            page = new SignupScreen();
+        }
+        else {
+            page = new ErrorScreen();
+        }
 
         app.render(page);
     }
