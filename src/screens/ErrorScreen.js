@@ -7,7 +7,7 @@ export default class ErrorScreen extends HTMLElement{
 
     render(){
         return `
-        <p> error </p>
+        <p> 404 Page Not Found</p>
         `;
     }
 }

@@ -81,3 +81,17 @@ footer {
     background-color: #6F1A76;
     color: white;
 }
+
+/* basket screen feedback message */
+
+.invalid {
+    color: red;
+  }
+
+  .valid {
+    color: green;
+  }
+
+  .invalid i, .valid i {
+    margin-left: 5px;
+  }
