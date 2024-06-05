@@ -51,10 +51,10 @@ export default class ContactScreen extends HTMLElement{
                 </div>
                 <div class="form-group">
                     <label for="inputMessage">Message</label>
-                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Message" required></textarea>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Message" ></textarea>
                 </div>
                 <button type="submit" class="btn btn-purple">Send Message</button>
-            </form>
+            </form>required
         </div>
     </section>
         </main>  

@@ -40,7 +40,7 @@ export default class BasketScreen extends HTMLElement{
 
 
     }
-    // Phone number validation
+    
     if (!this.phoneRegex.test(entries.phone)) {
       e.target.querySelector("#phoneFeedback").innerHTML = `<span class="invalid">Invalid format <i class="fas fa-exclamation-circle"></i></span>`;
       isValide = false;
